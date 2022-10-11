@@ -6,6 +6,15 @@
     "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,
     "strict": true,
+    "paths": {
+      "fa": [
+        "dist/fa"
+      ],
+      "fa/*": [
+        "dist/fa/*",
+        "projects/fa/*"
+      ]
+    },
     "noImplicitOverride": true,
     "noPropertyAccessFromIndexSignature": true,
     "noImplicitReturns": true,
